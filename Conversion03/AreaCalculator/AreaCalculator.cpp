@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cmath>
 
+
 using namespace std; 
 int choice = 0;
 void triangle(int x, int y) {
