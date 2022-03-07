@@ -1,7 +1,20 @@
 #include <stdio.h>
 #include <iostream>
 using namespace std;
-long long power(int a);
+ 
+
+ long long power(int a)
+{
+    int i;
+    long long ans=1;
+     
+    for(i=1; i<=a; i++)
+    {
+        ans*=a;
+    }
+     
+    return ans;
+}
  
 int main()
 {
@@ -20,16 +33,3 @@ int main()
     return 0;
 }
  
-long long power(int a)
-{
-    int i;
-    long long ans=1;
-     
-    for(i=1; i<=a; i++)
-    {
-        ans*=a;
-        ans=ans%10000000000000;
-    }
-     
-    return ans;
-}
