@@ -20,9 +20,12 @@ class findArea{
 };
 int main(){
     findArea(a);
+    cout<<"Enter a:="<<endl;
     cin >>a;
     findArea(b , c);
-    cin >> b >> c;
+     cout<<"Enter a:="<<endl;
+    cin >> b;
+    cin>>c;
     findArea(d,e,h);
     cin >> e >> e >> h;
     return 0;

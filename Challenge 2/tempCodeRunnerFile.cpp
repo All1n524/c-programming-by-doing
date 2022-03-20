@@ -1,1 +1,1 @@
-        ans=ans%10000000000000;
+#include <stdio.h>
