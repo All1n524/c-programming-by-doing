@@ -10,8 +10,8 @@ class Quadrilateral {
 
     public:
 
-    Quadrilateral(){ //initialize with nothing
-    }
+    Quadrilateral(){ 
+    };
 
     Quadrilateral(int x){
         Area = x*x;
@@ -36,27 +36,25 @@ class Quadrilateral {
     double changeShape(int w, int h){
 
         return w*h;
-    } //change  to a rectangle with sides w and h
+    } //change to a rectangle with sides w and h
 
     double changeShape(int b1, int b2, int h) {
  
         return (b1+b2)*h/2;
-        //change  to a trapezoid 
+        //change to a trapezoid 
     }
 
     double getArea (){
         return Area;
     }
 
-    string getType(){
-        return Type;
-    }
+
 
 };
 
 int main (){
 
-    Quadrilateral shapes[3]={Quadrilateral (6), Quadrilateral (6,5), Quadrilateral (3,6,5)};
+    Quadrilateral shapes[3]={Quadrilateral (5), Quadrilateral (5,4), Quadrilateral (2,6,4)};
 
     Quadrilateral squares[5];
     for(int i = 0; i<5;i++){
@@ -74,3 +72,4 @@ int main (){
     } 
 
     cout << "Sum of areas: " << sum;
+}
