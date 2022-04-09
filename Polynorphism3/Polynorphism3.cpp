@@ -10,8 +10,7 @@ class Quadrilateral {
 
     public:
 
-    Quadrilateral(){ 
-    };
+    Quadrilateral(){};
 
     Quadrilateral(int x){
         Area = x*x;
@@ -54,7 +53,7 @@ class Quadrilateral {
 
 int main (){
 
-    Quadrilateral shapes[3]={Quadrilateral (5), Quadrilateral (5,4), Quadrilateral (2,6,4)};
+    Quadrilateral shapes[3]={Quadrilateral (6), Quadrilateral (6,5), Quadrilateral (3,6,5)};
 
     Quadrilateral squares[5];
     for(int i = 0; i<5;i++){
@@ -63,11 +62,11 @@ int main (){
 
     int sum = 0;
 
-    for (int i = 0; i < 2; i++){
-        sum += squares[i].getArea();
+    for (int i = 0; i < 3; i++){
+        sum += shapes[i].getArea();
     }
 
-    for (int i = 0; i<4; i++){
+    for (int i = 0; i<3; i++){
         sum += squares[i].getArea();
     } 
 
