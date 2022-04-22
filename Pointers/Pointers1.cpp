@@ -1,4 +1,3 @@
-/1 pointer & address
 #include <iostream>
 
 #include <string>
@@ -20,14 +19,14 @@ int * larger(int *x, int *y){
 int main()
 {
     string name = "World";
-    sayHello(name);
+    sayHello(name);//print out "Hellow World"
     cout<<endl;
     
     string *pName = &name;
-    sayHi(*pName);
+    sayHi(*pName);//Hi World
     int a = 5;
     int b = 1;
     int *pNum = larger(&a,&b);
-    cout<<"\n"<<*pNum<<" is larger"<<endl;
+    cout<<"\n"<<*pNum<<" is larger"<<endl; //5 is larger
     return 0;
 }
