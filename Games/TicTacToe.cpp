@@ -1,12 +1,13 @@
 #include <iostream>
-
 using namespace std;
+
+
 
 class TTT {
 	private:
 		char board[3][3];
 	public: 
-	void initBoard();
+		void initBoard();
 	void displayBoard();
 	void displayBoard2();
 	void playerChoice(char player);

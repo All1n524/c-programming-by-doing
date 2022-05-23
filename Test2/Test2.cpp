@@ -91,21 +91,7 @@ void method9() {
         i3 += 3;
     }
 }
-void method10() {
-//vector 
-    vector<int> a = {1,2,3,4,5,6,7,8,9};
-    for(int c = 0; c < 3; c++){
-        cout << a.at(c) << ' ';
-    }
-    cout << endl;
-    for(int c = 3; c < 6; c++){
-           cout << a.at(c) << ' ';
-    }
-    cout << endl;
-    for(int c = 6; c < 9; c++){
-        cout << a.at(c) << ' ';
-    }
-}
+
 void method11() {
 //for loop but numbers are negative 
     for(int i = -1; i >= -9; i--) {
@@ -255,23 +241,44 @@ void method20() {
 int main()
 {
     method1();
+    cout << endl;
     method2(); 
+    cout << endl;
     method3(); 
+    cout << endl;
     method4(); 
+    cout << endl;
+     cout << endl;
+
     method5(); 
+    cout << endl;
     method6(); 
+    cout << endl;
     method7(); 
+    cout << endl;
     method8(); 
+    cout << endl;
     method9(); 
-    method10(); 
+    cout << endl;
+
     method11(); 
+    cout << endl;
     method12(); 
+    cout << endl;
     method13(); 
+    cout << endl;
     method14(); 
+    cout << endl;
     method15(); 
+    cout << endl;
     method16(1);
+    cout << endl;
     method17(); 
+    cout << endl;
+    cout << endl;
     method18(); 
+    cout << endl;
     method19(); 
+    cout << endl;
     method20();
 }
